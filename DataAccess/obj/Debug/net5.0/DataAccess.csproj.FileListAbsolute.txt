@@ -1,0 +1,51 @@
+C:\Users\stefa\Desktop\Music\DataAccess\bin\Debug\net5.0\DataAccess.deps.json
+C:\Users\stefa\Desktop\Music\DataAccess\bin\Debug\net5.0\DataAccess.dll
+C:\Users\stefa\Desktop\Music\DataAccess\bin\Debug\net5.0\DataAccess.pdb
+C:\Users\stefa\Desktop\Music\DataAccess\bin\Debug\net5.0\BusinessLogic.dll
+C:\Users\stefa\Desktop\Music\DataAccess\bin\Debug\net5.0\Domain.dll
+C:\Users\stefa\Desktop\Music\DataAccess\bin\Debug\net5.0\BusinessLogic.pdb
+C:\Users\stefa\Desktop\Music\DataAccess\bin\Debug\net5.0\Domain.pdb
+C:\Users\stefa\Desktop\Music\DataAccess\obj\Debug\net5.0\DataAccess.csproj.AssemblyReference.cache
+C:\Users\stefa\Desktop\Music\DataAccess\obj\Debug\net5.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\stefa\Desktop\Music\DataAccess\obj\Debug\net5.0\DataAccess.AssemblyInfoInputs.cache
+C:\Users\stefa\Desktop\Music\DataAccess\obj\Debug\net5.0\DataAccess.AssemblyInfo.cs
+C:\Users\stefa\Desktop\Music\DataAccess\obj\Debug\net5.0\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\stefa\Desktop\Music\DataAccess\obj\Debug\net5.0\DataAccess.csproj.CopyComplete
+C:\Users\stefa\Desktop\Music\DataAccess\obj\Debug\net5.0\DataAccess.dll
+C:\Users\stefa\Desktop\Music\DataAccess\obj\Debug\net5.0\refint\DataAccess.dll
+C:\Users\stefa\Desktop\Music\DataAccess\obj\Debug\net5.0\DataAccess.pdb
+C:\Users\stefa\Desktop\Music\DataAccess\obj\Debug\net5.0\ref\DataAccess.dll
+D:\Scoala\SCOALA\FACULTATE\SchwarzIT\Teme\Music\DataAccess\bin\Debug\net5.0\DataAccess.deps.json
+D:\Scoala\SCOALA\FACULTATE\SchwarzIT\Teme\Music\DataAccess\bin\Debug\net5.0\DataAccess.dll
+D:\Scoala\SCOALA\FACULTATE\SchwarzIT\Teme\Music\DataAccess\bin\Debug\net5.0\DataAccess.pdb
+D:\Scoala\SCOALA\FACULTATE\SchwarzIT\Teme\Music\DataAccess\bin\Debug\net5.0\BusinessLogic.dll
+D:\Scoala\SCOALA\FACULTATE\SchwarzIT\Teme\Music\DataAccess\bin\Debug\net5.0\Domain.dll
+D:\Scoala\SCOALA\FACULTATE\SchwarzIT\Teme\Music\DataAccess\bin\Debug\net5.0\BusinessLogic.pdb
+D:\Scoala\SCOALA\FACULTATE\SchwarzIT\Teme\Music\DataAccess\bin\Debug\net5.0\Domain.pdb
+D:\Scoala\SCOALA\FACULTATE\SchwarzIT\Teme\Music\DataAccess\obj\Debug\net5.0\DataAccess.csproj.AssemblyReference.cache
+D:\Scoala\SCOALA\FACULTATE\SchwarzIT\Teme\Music\DataAccess\obj\Debug\net5.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\Scoala\SCOALA\FACULTATE\SchwarzIT\Teme\Music\DataAccess\obj\Debug\net5.0\DataAccess.AssemblyInfoInputs.cache
+D:\Scoala\SCOALA\FACULTATE\SchwarzIT\Teme\Music\DataAccess\obj\Debug\net5.0\DataAccess.AssemblyInfo.cs
+D:\Scoala\SCOALA\FACULTATE\SchwarzIT\Teme\Music\DataAccess\obj\Debug\net5.0\DataAccess.csproj.CoreCompileInputs.cache
+D:\Scoala\SCOALA\FACULTATE\SchwarzIT\Teme\Music\DataAccess\obj\Debug\net5.0\DataAccess.csproj.CopyComplete
+D:\Scoala\SCOALA\FACULTATE\SchwarzIT\Teme\Music\DataAccess\obj\Debug\net5.0\DataAccess.dll
+D:\Scoala\SCOALA\FACULTATE\SchwarzIT\Teme\Music\DataAccess\obj\Debug\net5.0\refint\DataAccess.dll
+D:\Scoala\SCOALA\FACULTATE\SchwarzIT\Teme\Music\DataAccess\obj\Debug\net5.0\DataAccess.pdb
+D:\Scoala\SCOALA\FACULTATE\SchwarzIT\Teme\Music\DataAccess\obj\Debug\net5.0\ref\DataAccess.dll
+E:\SCOALA\FACULTATE\Schwarz IT\Music\DataAccess\bin\Debug\net5.0\DataAccess.deps.json
+E:\SCOALA\FACULTATE\Schwarz IT\Music\DataAccess\bin\Debug\net5.0\DataAccess.dll
+E:\SCOALA\FACULTATE\Schwarz IT\Music\DataAccess\bin\Debug\net5.0\DataAccess.pdb
+E:\SCOALA\FACULTATE\Schwarz IT\Music\DataAccess\bin\Debug\net5.0\BusinessLogic.dll
+E:\SCOALA\FACULTATE\Schwarz IT\Music\DataAccess\bin\Debug\net5.0\Domain.dll
+E:\SCOALA\FACULTATE\Schwarz IT\Music\DataAccess\bin\Debug\net5.0\BusinessLogic.pdb
+E:\SCOALA\FACULTATE\Schwarz IT\Music\DataAccess\bin\Debug\net5.0\Domain.pdb
+E:\SCOALA\FACULTATE\Schwarz IT\Music\DataAccess\obj\Debug\net5.0\DataAccess.csproj.AssemblyReference.cache
+E:\SCOALA\FACULTATE\Schwarz IT\Music\DataAccess\obj\Debug\net5.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+E:\SCOALA\FACULTATE\Schwarz IT\Music\DataAccess\obj\Debug\net5.0\DataAccess.AssemblyInfoInputs.cache
+E:\SCOALA\FACULTATE\Schwarz IT\Music\DataAccess\obj\Debug\net5.0\DataAccess.AssemblyInfo.cs
+E:\SCOALA\FACULTATE\Schwarz IT\Music\DataAccess\obj\Debug\net5.0\DataAccess.csproj.CoreCompileInputs.cache
+E:\SCOALA\FACULTATE\Schwarz IT\Music\DataAccess\obj\Debug\net5.0\DataAccess.csproj.CopyComplete
+E:\SCOALA\FACULTATE\Schwarz IT\Music\DataAccess\obj\Debug\net5.0\DataAccess.dll
+E:\SCOALA\FACULTATE\Schwarz IT\Music\DataAccess\obj\Debug\net5.0\refint\DataAccess.dll
+E:\SCOALA\FACULTATE\Schwarz IT\Music\DataAccess\obj\Debug\net5.0\DataAccess.pdb
+E:\SCOALA\FACULTATE\Schwarz IT\Music\DataAccess\obj\Debug\net5.0\ref\DataAccess.dll

@@ -1,0 +1,49 @@
+﻿@model IEnumerable<Domain.AlbumArtist>
+
+@{
+    ViewData["Title"] = "GetArtistIdByAlbumId";
+}
+<br/>
+<br/>
+<h1>GetArtistIdByAlbumId</h1>
+<br/>
+<br/>
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.AlbumArtistId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ArtistId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AlbumId)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.AlbumArtistId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ArtistId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AlbumId)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { albumArtistId=item.AlbumArtistId }) |
+                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Delete", "Delete", new { albumArtistId=item.AlbumArtistId })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

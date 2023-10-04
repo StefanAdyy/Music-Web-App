@@ -1,0 +1,45 @@
+﻿@model IEnumerable<Domain.Nationality>
+
+@{
+    ViewData["Title"] = "Nationalities";
+}
+<br/>
+<br/>
+<h1>Nationalities</h1>
+<br/>
+<br/>
+<table class="table table-striped table-light">
+    <thead class="thead-dark">
+        <tr>
+            @*<th>
+                @Html.DisplayNameFor(model => model.NationalityId)
+                </th>*@
+            <th scope="col">
+                @Html.DisplayNameFor(model => model.NationalityName)
+            </th>
+            <th scope="col"></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                @*<td>
+                    @Html.DisplayFor(modelItem => item.NationalityId)
+                    </td>*@
+                <td>
+                    @Html.DisplayFor(modelItem => item.NationalityName)
+                </td>
+                <td class="btn btn-primary" >
+                    @Html.ActionLink("Edit", "Edit", new { nationalityId=item.NationalityId}, new{style="color:white"})
+                </td>
+                <td class="btn btn-danger">
+                    @Html.ActionLink("Delete", "Delete", new { nationalityId=item.NationalityId}, new{style="color:white"})
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<p class="btn btn-success">
+    <a class="text-white" asp-action="Create">New Nationality</a>
+</p>

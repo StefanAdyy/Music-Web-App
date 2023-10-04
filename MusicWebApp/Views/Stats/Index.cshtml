@@ -1,0 +1,46 @@
+﻿@model IEnumerable<Domain.EntryDate>
+
+@{
+    ViewData["Title"] = "Index";
+}
+<br />
+<br />
+<h1>Here you can find some interesting info</h1>
+<br />
+<br />
+<p>
+    Time spent today in the app: @ViewBag.Minutes minutes
+</p>
+<p>
+    Daily average time: @ViewBag.AverageTime minutes
+</p>
+<br />
+<br />
+
+<p class="btn btn-primary">
+    <a class="text-white" asp-action="FavouriteSongs">Your favourite songs</a>
+</p>
+<br />
+<p class="btn btn-primary">
+    <a class="text-white" asp-action="FavouriteArtists">Your favourite artists</a>
+</p>
+<br />
+<p class="btn btn-primary">
+    <a class="text-white" asp-action="FavouriteGenres">Your favourite genres</a>
+</p>
+<br />
+<p class="btn btn-primary">
+    <a class="text-white" asp-action="FavouriteAlbums">Your favourite albums</a>
+</p>
+<br />
+<p class="btn btn-primary">
+    <a class="text-white" asp-action="MostLikedSongPerGenre">The Most Liked Songs Per Genre</a>
+</p>
+<br />
+<p class="btn btn-primary">
+    <a class="text-white" asp-action="MostLikedSongPerArtist">The Most Liked Songs Per Artist</a>
+</p>
+<br />
+<p class="btn btn-primary">
+    <a class="text-white" asp-action="MostLikedSongPerAlbum">The Most Liked Songs Per Album</a>
+</p>

@@ -1,0 +1,69 @@
+﻿@model IEnumerable<Domain.Artist>
+
+@{
+    ViewData["Title"] = "Artists";
+}
+<br/>
+<br/>
+<h1>Artists</h1>
+<br/>
+<br/>
+<table class="table table-striped table-light">
+    <thead class="thead-dark">
+        <tr>
+            @*<th>
+                @Html.DisplayNameFor(model => model.ArtistId)
+                </th>*@
+            <th scope="col">
+                @Html.DisplayNameFor(model => model.FirstName)
+            </th>
+            <th scope="col">
+                @Html.DisplayNameFor(model => model.SecondName)
+            </th>
+            <th scope="col">
+                @Html.DisplayNameFor(model => model.Birthdate)
+            </th>
+            <th scope="col">
+                @Html.DisplayNameFor(model => model.Gender)
+            </th>
+            <th scope="col">
+                @Html.DisplayNameFor(model => model.Nationality)
+            </th>
+            <th scope="col"></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                @*<td>
+                    @Html.DisplayFor(modelItem => item.ArtistId)
+                    </td>*@
+                <td>
+                    @Html.DisplayFor(modelItem => item.FirstName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.SecondName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Birthdate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Gender)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Nationality)
+                </td>
+                <td class="btn btn-primary">
+                    @Html.ActionLink("Edit", "Edit", new { artistId=item.ArtistId }, new{style="color:white"})
+                </td>
+                <td class="btn btn-danger">
+                    @Html.ActionLink("Delete", "Delete", new { artistId=item.ArtistId }, new{style="color:white"})
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<p class="btn btn-success">
+    <a class="text-white" asp-action="Create">New Artist</a>
+</p>

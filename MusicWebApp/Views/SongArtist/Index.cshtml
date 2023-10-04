@@ -1,0 +1,51 @@
+﻿@model IEnumerable<Domain.SongArtist>
+
+@{
+    ViewData["Title"] = "Songs and Artists";
+}
+<br/>
+<br/>
+<h1>Songs and Artists</h1>
+<br/>
+<br/>
+<table class="table table-striped table-light">
+    <thead class="thead-dark">
+        <tr>
+            @*<th>
+                @Html.DisplayNameFor(model => model.SongArtistId)
+                </th>*@
+            <th scope="col">
+                @Html.DisplayNameFor(model => model.SongTitle)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ArtistName)
+            <th scope="col">
+            <th scope="col"></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                @*<td>
+                    @Html.DisplayFor(modelItem => item.SongArtistId)
+                    </td>*@
+                <td>
+                    @Html.DisplayFor(modelItem => item.SongTitle)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ArtistName)
+                </td>
+                <td class="btn btn-primary">
+                    @Html.ActionLink("Edit", "Edit", new { songArtistId=item.SongArtistId }, new{style="color:white"})
+                </td>
+                <td class="btn btn-danger">
+                    @Html.ActionLink("Delete", "Delete", new { songArtistId=item.SongArtistId }, new{style="color:white"})
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<p class="btn btn-success">
+    <a class="text-white" asp-action="Create">New Song-Artist</a>
+</p>

@@ -1,0 +1,40 @@
+﻿@model IEnumerable<Domain.Top>
+
+@{
+    ViewData["Title"] = "FavouriteGenres";
+}
+<br/>
+<br/>
+<h1>Top 5 Genres</h1>
+<br/>
+<br/>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.GenreName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Likes)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.GenreName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Likes)
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<p class="btn btn-secondary">
+    <a class="text-white" asp-action="Index">Back</a>
+</p>

@@ -1,0 +1,26 @@
+﻿<h1>ReadAlbumId</h1>
+
+@model Domain.AlbumArtist
+
+@{
+    ViewData["Title"] = "ReadAlbumId";
+}
+<br/>
+<br/>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>ReadAlbumId</title>
+</head>
+<body>
+    
+    <form action="GetArtistIdByAlbumId" method="post">
+        <label>albumId</label>
+        <input type="number" name="AlbumId" placeholder="AlbumId.." />
+        <br />
+
+        <input type="submit" value="GetArtists" />
+    </form>
+</body>
+</html>

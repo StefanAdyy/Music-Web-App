@@ -1,0 +1,22 @@
+--CREATE TRIGGER insert_songs_after_inserting_artists AFTER INSERT 
+--ON playlist_artist
+--EXECUTE PROCEDURE 
+
+--CREATE PROCEDURE insert_artists_songs_in_playlist 
+INSERT INTO playlist_song 
+SELECT * FROM song_artist 
+RIGHT JOIN playlist_artist ON playlist_artist.artist_id = song_artist.artist_id
+WHERE song_artist.artist_id =
+ (SELECT artist_id 
+ FROM playlist_artist
+ ORDER BY playlist_artist_id DESC
+ LIMIT 1);
+ 
+ 
+ 
+ 
+INSERT INTO playlist_artist (playlist_id, artist_id) VALUES (1, 1);
+ select * from playlist_artist
+ select * from playlist_song
+ select * from song_artist
+ delete from playlist_song

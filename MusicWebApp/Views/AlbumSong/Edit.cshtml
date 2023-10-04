@@ -1,0 +1,46 @@
+﻿@model Domain.AlbumSong
+
+@{
+    ViewData["Title"] = "Edit";
+}
+<br/>
+<br/>
+<h1>Edit</h1>
+<br/>
+<br/>
+
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div hidden class="form-group">
+                <label asp-for="AlbumSongId" class="control-label"></label>
+                <input asp-for="AlbumSongId" readonly class="form-control" />
+                <span asp-validation-for="AlbumSongId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="AlbumId" class="control-label"></label>
+                <select asp-for="AlbumId" asp-items="@ViewBag.Albums" class="form-control">
+                </select>
+                <span asp-validation-for="AlbumId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SongId" class="control-label"></label>
+                <select asp-for="SongId" asp-items="@ViewBag.Songs" class="form-control">
+                </select>
+                <span asp-validation-for="SongId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div class="btn btn-secondary">
+    <a class="text-white" asp-action="Index">Back</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

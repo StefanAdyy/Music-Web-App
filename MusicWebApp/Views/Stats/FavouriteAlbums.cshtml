@@ -1,0 +1,38 @@
+﻿@model IEnumerable<Domain.Top>
+@{
+    ViewData["Title"] = "FavouriteAlbums";
+}
+<br/>
+<br/>
+<h1>Top 5 Albums</h1>
+<br/>
+<br/>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.AlbumTitle)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Likes)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.AlbumTitle)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Likes)
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+<br/>
+<p class="btn btn-secondary">
+    <a class="text-white" asp-action="Index">Back</a>
+</p>

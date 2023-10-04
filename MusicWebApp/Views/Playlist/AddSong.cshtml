@@ -1,0 +1,35 @@
+﻿@model Domain.PlaylistSong
+@{
+    ViewData["Title"] = "AddSong";
+}
+<br/>
+<br/>
+<h1>Add Song</h1>
+<br/>
+<br/>
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="AddSong">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div hidden class="form-group">
+                <label asp-for="PlaylistId" class="control-label"></label>
+                <input asp-for="PlaylistId" value="@Model.PlaylistId" class="form-control">
+            </div>
+            <div class="form-group">
+                <label asp-for="SongId" class="control-label"></label>
+                <select asp-for="SongId" asp-items="@ViewBag.Songs" class="form-control">
+                    <option value="">Please select a song</option>
+                </select>
+                <span asp-validation-for="SongId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Add" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div class="btn btn-secondary">
+    @Html.ActionLink("Back", "Details", new { playlistId=@Model.PlaylistId}, new{style="color:white"})
+</div>
+

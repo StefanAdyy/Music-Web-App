@@ -1,0 +1,18 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<h1 class="display-4">Welcome to my Music Player</h1>
+<br />
+<br />
+<p>To see the first part of the project click on an item below.</p>
+<ul class="list-group list-group-flush">
+    <a class="list-group-item list-group-item-action" asp-area="" asp-controller="Artist" asp-action="Index">Artists</a>
+    <a class="list-group-item list-group-item-action" asp-area="" asp-controller="Album" asp-action="Index">Albums</a>
+    <a class="list-group-item list-group-item-action" asp-area="" asp-controller="Nationality" asp-action="Index">Nationalities</a>
+    <a class="list-group-item list-group-item-action" asp-area="" asp-controller="Song" asp-action="Index">Songs</a>
+    <a class="list-group-item list-group-item-action" asp-area="" asp-controller="MusicGenre" asp-action="Index">Genres</a>
+    <a class="list-group-item list-group-item-action" asp-area="" asp-controller="AlbumArtist" asp-action="Index">Albums and Artists</a>
+    <a class="list-group-item list-group-item-action" asp-area="" asp-controller="AlbumSong" asp-action="Index">Albums and Songs</a>
+    <a class="list-group-item list-group-item-action" asp-area="" asp-controller="SongArtist" asp-action="Index">Songs and Artists</a>
+</ul>
